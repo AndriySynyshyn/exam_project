@@ -1,0 +1,76 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    background-color: #A1E2EB;
+    padding-left: 2%;
+}
+
+
+.leftSide{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+}
+.header{
+    margin-top: 125px;
+    align-self: end;
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104px;
+    letter-spacing: 0;
+    color: white;
+}
+.paragraph{
+    align-self: start;
+    font-family: sans-serif;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0;
+    text-align: left;
+    color: white;
+}
+.btn{
+    width: 155px;
+    height: 82px;
+    border-radius: 13px;
+    gap: 10px;
+    background-color: white;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: bold;
+    font-family: sans-serif, serif;
+    align-self: start;
+}
+
+
+/*catalog section*/
+.catalogContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 416px;
+    padding-left: 2%;
+}
+.catalogTitle{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+.btnCatalog{
+    font-size: 18px;
+    text-align: center;
+    color: #8B8B8B;
+    border: 2px solid #8B8B8B;
+}
+
+
+/*sales section*/
+.salesContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 276px);
+    grid-template-rows: 500px;
+    padding-left: 2%;
+}

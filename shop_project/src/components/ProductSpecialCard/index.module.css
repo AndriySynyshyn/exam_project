@@ -1,0 +1,24 @@
+.price{
+    font-family: sans-serif, serif;
+    font-size: 30px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+}
+
+
+.discountPrice{
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-decoration: line-through;
+    color: #8B8B8B;
+    align-self: center;
+}
+
+.percent{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #FF32A1;
+    align-self: center;
+}
+

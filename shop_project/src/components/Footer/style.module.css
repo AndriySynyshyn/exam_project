@@ -1,0 +1,21 @@
+.footerContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 275px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5%;
+}
+
+.contactSection{
+    justify-self: left;
+}
+.addressSection{
+    justify-self: right;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 98px 98px;
+    grid-template-rows: 77px;
+}
